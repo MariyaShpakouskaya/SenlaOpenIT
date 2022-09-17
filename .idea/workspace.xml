@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b737975-97f2-412e-999a-a8effcf7cd24" name="Changes" comment="pom">
-      <change afterPath="$PROJECT_DIR$/src/dao/OrderItemRepostory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/OrderRepository.java" afterDir="false" />
+    <list default="true" id="4b737975-97f2-412e-999a-a8effcf7cd24" name="Changes" comment="Order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/entity/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "1e72ebad39a5832835f37c65c14bb48f"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +59,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663402038796</updated>
-      <workItem from="1663402040252" duration="2406000" />
+      <workItem from="1663402040252" duration="3351000" />
+      <workItem from="1663405470941" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663402261601</created>
@@ -88,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663404019241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Order">
+      <created>1663404693951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663404693951</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +118,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="change gitignore" />
     <MESSAGE value="pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom" />
+    <MESSAGE value="Order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order" />
   </component>
 </project>
