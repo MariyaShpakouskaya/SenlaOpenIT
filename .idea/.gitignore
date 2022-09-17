@@ -1,8 +1,29 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Complied class file
+*.class
+
+# Log file
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.zip
+*.rar
+
+#Idea, Maven
+out/
+.idea/
+*.iml
+*.ini
+*.iws
+*.ipr
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
