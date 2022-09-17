@@ -2,7 +2,7 @@ package dao.entity;
 
 import java.time.LocalDateTime;
 
-public class Orders {
+public class Order {
 
     private Long id;
     private Long user_id;
