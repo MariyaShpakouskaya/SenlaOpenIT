@@ -1,6 +1,6 @@
-package dao;
+package main.java.dao;
 
-import dao.entity.Order;
+import main.java.dao.entity.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {

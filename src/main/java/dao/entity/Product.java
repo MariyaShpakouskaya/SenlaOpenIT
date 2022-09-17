@@ -1,24 +1,39 @@
-package dao.entity;
+package main.java.dao.entity;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
+@Entity
+@Table(name = "products")
 public class Product {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "price")
     private BigDecimal price;
+    @Column(name = "created_at")
     private LocalDateTime timestamp;
-    private Product_status status;
+    @Enumerated
+    @Column(name = "status")
+    private Status status;
 
-    public enum Product_status {
+    public Product() {
+
+    }
+
+    public enum Status {
         OUT_OF_STOCK,
         IN_STOCK,
         RUNNING_LOW
     }
 
-    public Product(String name, BigDecimal price, LocalDateTime timestamp, Product_status status) {
+    public Product(String name, BigDecimal price, LocalDateTime timestamp, Status status) {
         this.name = name;
         this.price = price;
         this.timestamp = timestamp;
@@ -57,11 +72,11 @@ public class Product {
         this.timestamp = timestamp;
     }
 
-    public Product_status getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(Product_status status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 

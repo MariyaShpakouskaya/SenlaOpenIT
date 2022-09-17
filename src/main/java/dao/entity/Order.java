@@ -1,14 +1,27 @@
-package dao.entity;
+package main.java.dao.entity;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
+@Entity
+@Table(name = "orders")
 public class Order {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "user_id")
     private Long user_id;
+    @Column(name = "created_at")
     private LocalDateTime timestamp;
+    @Column(name = "status")
     private Status status;
+
+    public Order() {
+
+    }
 
     public enum Status {
         CREATED,

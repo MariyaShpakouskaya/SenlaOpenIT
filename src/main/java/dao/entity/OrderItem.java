@@ -1,18 +1,32 @@
-package dao.entity;
+package main.java.dao.entity;
 
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity
+@Table(name = "order_items")
 public class OrderItem {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.REFRESH})
+    @JoinColumn(name = "order_id")
     private Order order;
+    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.REFRESH})
+    @JoinColumn(name = "product_id")
     private Product product;
+    @Column(name = "quantity")
     private Integer quantity;
 
     public OrderItem(Order order, Product product, Integer quantity) {
         this.order = order;
         this.product = product;
         this.quantity = quantity;
+    }
+
+    public OrderItem() {
+
     }
 
     public Long getId() {
