@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b737975-97f2-412e-999a-a8effcf7cd24" name="Changes" comment="Order">
+    <list default="true" id="4b737975-97f2-412e-999a-a8effcf7cd24" name="Changes" comment="Change entity">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ContextConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/dto/OrderItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/dto/ProductDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/entity/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/OrderItemRepostory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/OrderItemRepostory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/entity/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663402038796</updated>
       <workItem from="1663402040252" duration="3351000" />
-      <workItem from="1663405470941" duration="80000" />
+      <workItem from="1663405470941" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663402261601</created>
@@ -97,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663404693951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change entity">
+      <created>1663405598647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663405598647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +135,7 @@
     <MESSAGE value="change gitignore" />
     <MESSAGE value="pom" />
     <MESSAGE value="Order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order" />
+    <MESSAGE value="Change entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change entity" />
   </component>
 </project>
